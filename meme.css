@@ -153,3 +153,17 @@ a {
     display: none;
     max-width: 100%;
 }
+
+.recent-posts {
+    background: url(img/recent-posts@2x.jpg) no-repeat;
+    background-size: cover;
+    color: #FAF7EB;
+    margin-top: 32px;
+    padding: 88px 6.395348837% 32px 6.395348837%;
+    position: relative;
+}
+
+.recent-posts-header {
+    margin-bottom: 56px;
+    text-align: center;
+}
