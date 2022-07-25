@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-bg {
+    background: #faf7eb;
+    padding: 32px;
+    color: #214261;
+    font-family: grad, serif;
+}
+
+.main-banner {
+    background: #214261;
+    background-size: cover;
+    background-position: center;
+    padding: 56px 6.395348837% 88px;
+    position: relative;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    padding: 50px;
+}
+
+h1 {
+    font: 600 44px "ivypresto-headline", serif;
+    padding-top: 16px;
+    margin-bottom: 24px;
+}
+
+header h1 {
+    font: 600 26px "ivypresto-headline", serif;
+    color: #DBBD7F;
+}
+
+.main-banner-content h1 {
+    color: #FAF7EB;
+    font: 600 52px "ivypresto-headline", serif;
+    line-height: 1.2727272727em;
+    margin-bottom: 24px;
+}
+
+.main-banner .main-banner-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 672px;
+    position: relative;
+    z-index: 10;
+}
+
+.main-banner .main-banner-content p {
+    color: #dec38b;
+    margin: 0 auto 64px auto;
+    width: 83.33333333%;
+}
+
+.main-banner .btn {
+    background: #FAF7EB;
+    color: #214261;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn {
+    text-transform: uppercase;
+    font: 400 16px grad, serif;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    background: #DBBD7F;
+    border: none;
+    border-radius: 360px;
+    color: #214261;
+    cursor: pointer;
+    outline: none;
+    padding: 12px 32px 14px 32px;
+    text-align: center;
+    max-width: 180px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #DBBD7F;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me .description-container {
+    padding: 40px 6.39535% 64px 6.39535%;
+    width: 70%;
+}
+
+.about-me .description-container {
+    background-color: #DBBD7F;
+    background-position: left top;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 32px 16px 0 0;
+    padding: 88px 6.395348837%;
+    width: 49.7%;
+    position: relative;
+}
+
+.about-me .description {
+    align-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+.circle-container {
+    background-size: 161px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.about-circle {
+    height: 100%;
+    width: 100%;
+    right: -73.80952381%;
+    top: -20px;
+    position: absolute;
+}
+
+.about-circle img {
+    animation: big-spin 120s linear infinite;
+}
+
+.about-me .portrait {
+    width: 30%;
+}
+
+.about-me .portrait {
+    background: url(img/headshot.jpg) center;
+    background-size: cover;
+    margin: 32px 0 0 16px;
+    width: 50%;
+}
+
+.about-me .portrait img {
+    display: none;
+    max-width: 100%;
+}
