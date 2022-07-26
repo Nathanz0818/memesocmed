@@ -29,12 +29,17 @@ header {
 h1 {
     font: 600 44px "ivypresto-headline", serif;
     padding-top: 16px;
+    line-height: 1.25em;
     margin-bottom: 24px;
 }
 
 header h1 {
     font: 600 26px "ivypresto-headline", serif;
     color: #DBBD7F;
+}
+
+header img {
+    max-width: 30%;
 }
 
 .main-banner-content h1 {
@@ -254,4 +259,106 @@ ol, ul {
     padding: 16px 32px;
     position: absolute;
     text-align: center;
+}
+
+.design-talks {
+    position: relative;
+    justify-content: flex-end;
+    background: #DBBD7F url(img/tiny-moon.png) bottom right no-repeat;
+    background-size: 161px;
+    display: flex;
+    margin: 32px 0;
+    padding: 88px 6.395348837%;
+}
+
+.design-talks .design-talks-content {
+    width: 70.66666667%;
+    position: relative;
+    z-index: 1;
+}
+
+.circle-container {
+    background-size: 161px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.design-talks p {
+    margin-bottom: 32px;
+}
+
+.design-talks .events {
+    border-top: 1px solid #214261;
+    margin: 16px 0 32px 0;
+    display: table;
+    width: 100%;
+}
+
+.design-talks .events a {
+    color: #214261;
+    display: table-row;
+}
+
+.design-talks .events h4, .design-talks .events span {
+    display: table-cell;
+    border-bottom: 1px solid #214261;
+    vertical-align: middle;
+}
+
+.design-talks .events h4 {
+    font: 600 26px "ivypresto-headline", serif;
+    line-height: 1.25em;
+    font-size: 26px;
+    padding: 20px 0 16px 0;
+}
+
+.design-talks .events span {
+    text-align: right;
+    padding-top: 2px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.design-talks .arrow-background {
+    fill: #FAF7EB;
+}
+
+.design-talks .arrow {
+    fill: none;
+    stroke: #214261;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.design-talks .design-talks-content .button {
+    background: #214261;
+    color: #FAF7EB;
+    margin-top: 16px;
+    display: inline-block;
+    width: auto;
+}
+
+.button {
+    text-transform: uppercase;
+    font: 400 16px grad, serif;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    background: #DBBD7F;
+    border: none;
+    border-radius: 100px;
+    color: #214261;
+    cursor: pointer;
+    outline: none;
+    padding: 12px 32px 14px 32px;
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
 }
